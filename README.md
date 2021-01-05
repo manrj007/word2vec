@@ -2,7 +2,7 @@
 
 Dataset used
 
-OpinRank Data – Reviews From TripAdvisor & Edmunds
+###OpinRank Data – Reviews From TripAdvisor & Edmunds
  
 
 Dataset Overview
@@ -53,6 +53,8 @@ Citing Dataset
 If you use this dataset for your own research please cite the following to mark the dataset: 
 Ganesan, K. A., and C. X. Zhai, “Opinion-Based Entity Ranking“, Information Retrieval.
 
+```
+
   @article{ganesan2012opinion,
   title={Opinion-based entity ranking},
   author={Ganesan, Kavita and Zhai, ChengXiang},
@@ -63,3 +65,4 @@ Ganesan, K. A., and C. X. Zhai, “Opinion-Based Entity Ranking“, Information 
   year={2012},
   publisher={Springer} 
 }
+```
