@@ -2,7 +2,7 @@
 
 Dataset used
 
-###OpinRank Data – Reviews From TripAdvisor & Edmunds
+### OpinRank Data – Reviews From TripAdvisor & Edmunds
  
 
 Dataset Overview
@@ -31,27 +31,24 @@ There are three different folders (2007,2008,2009) representing the three model 
 Note that each review is enclosed within a element as shown above and all the extracted items are within this element.
 
 Hotel Reviews
-Dataset Description
+
+``Dataset Description``
 
 Full reviews of hotels in 10 different cities (Dubai, Beijing, London, New York City, New Delhi, San Francisco, Shanghai, Montreal, Las Vegas, Chicago)
 There are about 80-700 hotels in each city
 Extracted fields include date, review title and the full review
 Total number of reviews: ~259,000
-Format
+``Format``
 There should be 10 different folders representing the 10 cities mentioned earlier. Each file (within these 10 folders) would contain all reviews related to a particular hotel. The filename represents the name of the hotel. Within each file, you would see a set of reviews in the following format:
 
-Date1<tab>Review title1<tab>Full review 1
-Date2<tab>Review title2<tab>Full review 2
-…………….
-…………….
+> Date1<tab>Review title1<tab>Full review 1
+> Date2<tab>Review title2<tab>Full review 2
+> …………….
+> …………….
 
 Each line in the file represents a separate review entry. Tabs are used to separate the  different fields.
 
-Downloads
-Dataset with Judgments – Reviews and Relevance Judgments (~100MB) [ readme ]
-Citing Dataset
-If you use this dataset for your own research please cite the following to mark the dataset: 
-Ganesan, K. A., and C. X. Zhai, “Opinion-Based Entity Ranking“, Information Retrieval.
+
 
 ```
 
