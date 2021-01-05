@@ -8,8 +8,9 @@ Dataset used
 Dataset Overview
 This data set contains full reviews for cars and and hotels collected from Tripadvisor (~259,000 reviews) and Edmunds (~42,230 reviews).
 
-Car Reviews
-Dataset Description
+## ``Car Reviews``
+
+#### Dataset Description
 
 Full reviews of cars for model-years 2007, 2008, and 2009
 There are about 140-250 cars for each model year
@@ -18,19 +19,20 @@ Total number of reviews: ~42,230
 Year 2007 -18,903 reviews
 Year 2008 -15,438 reviews
 Year 2009 – 7,947 reviews
-Format
-There are three different folders (2007,2008,2009) representing the three model years. Each file (within these 3 folders) would contain all reviews for a particular car. The filename represents the name of the car. Within each car file, you would see a set of reviews in the following format:
 
+#### Format
+There are three different folders (2007,2008,2009) representing the three model years. Each file (within these 3 folders) would contain all reviews for a particular car. The filename represents the name of the car. Within each car file, you would see a set of reviews in the following format:
+```
 <DOC>
 <DATE>06/15/2009</DATE>
 <AUTHOR>The author</AUTHOR>
 <TEXT>The review goes here..</TEXT>
 <FAVORITE>What are my favorites about this car</FAVORITE>
 </DOC>
-
+```
 Note that each review is enclosed within a element as shown above and all the extracted items are within this element.
 
-Hotel Reviews
+#### Hotel Reviews
 
 ``Dataset Description``
 
