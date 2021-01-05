@@ -2,9 +2,7 @@
 
 Dataset used
 
-### OpinRank Data – Reviews From TripAdvisor & Edmunds
- 
-
+## ``OpinRank Data – Reviews From TripAdvisor & Edmunds``
 Dataset Overview
 This data set contains full reviews for cars and and hotels collected from Tripadvisor (~259,000 reviews) and Edmunds (~42,230 reviews).
 
