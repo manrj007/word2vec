@@ -38,12 +38,18 @@ Full reviews of hotels in 10 different cities (Dubai, Beijing, London, New York 
 There are about 80-700 hotels in each city
 Extracted fields include date, review title and the full review
 Total number of reviews: ~259,000
+
+
 ``Format``
+
 There should be 10 different folders representing the 10 cities mentioned earlier. Each file (within these 10 folders) would contain all reviews related to a particular hotel. The filename represents the name of the hotel. Within each file, you would see a set of reviews in the following format:
 
 > Date1<tab>Review title1<tab>Full review 1
+ 
 > Date2<tab>Review title2<tab>Full review 2
+ 
 > …………….
+
 > …………….
 
 Each line in the file represents a separate review entry. Tabs are used to separate the  different fields.
